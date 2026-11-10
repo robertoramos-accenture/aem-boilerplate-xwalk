@@ -1,9 +1,12 @@
-# Your Project's Title...
-Your project's description...
+# EDS Demo Site - AEM Content
+This project implements a new Adobe Experience Manager (AEM) project, authored in Universal Editor and published to Edge Delivery.
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Preview: https://main--aem-boilerplate-xwalk--robertoramos-accenture.aem.page/
+- Live: https://main--aem-boilerplate-xwalk--robertoramos-accenture.aem.live/
+
+## AEM Content Source
+- https://author-p11300-e47725.adobeaemcloud.com/ui#/aem/sites.html/content/eds-demo-site
 
 ## Documentation
 
@@ -12,6 +15,11 @@ Before using the aem-boilerplate, we recommend you to go through the documentati
 2. [Universal Editor Tutorial](https://www.aem.live/developer/ue-tutorial)
 3. [Component Model Definitions](https://www.aem.live/developer/component-model-definitions)
 4. [Authoring Path Mapping](https://www.aem.live/developer/authoring-path-mapping)
+
+## Set Up
+
+1. [Getting Started – Developer Tutorial](https://www.aem.live/developer/tutorial)
+2. [Set Up AEM Sites as a Content Source](https://www.aem.live/developer/ue-tutorial)
 
 ## Prerequisites
 
@@ -28,4 +36,9 @@ npm i
 
 ```sh
 npm run lint
+```
+
+## AEM sync
+```sh
+aem up
 ```
